@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './Components/Componente';
 import Propioedades from './Components/Propiedades';
+import Estado from "./Components/Estado"
+import Button from './Components/DropButton';
+
 function App() {
   return (
     <div className="App">
@@ -29,7 +32,9 @@ function App() {
           booleano={true}
           
           />
-         
+          <Button></Button>
+         <hr></hr>
+         <Estado></Estado>
       </section>
       </header>
         </section>
