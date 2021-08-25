@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Componente from './Components/Componente';
+import Propioedades from './Components/Propiedades';
 function App() {
   return (
     <div className="App">
+        <section>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
@@ -18,16 +20,20 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <section>
+        <section>
         <Componente msg="hola soy asasydeo"></Componente>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <hr/>
+        <Propioedades 
+          cadena="Esto es una cadena " 
+          numero={19} 
+          booleano={true}
+          
+          />
+         
       </section>
+      </header>
+        </section>
+      
     </div>
   );
 }
