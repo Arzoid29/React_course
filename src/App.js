@@ -7,6 +7,9 @@ import Button from './Components/DropButton';
 import Navba from './Components/Navbar';
 import RenderizadoCondicional from './Components/RedenrizadoCondicional';
 import RenderizadoElementos from './Components/RenderizadoElementos';
+import {EventosES6,EventosES7,MasSobreEventos} from './Components/Eventos';
+import Padre from './Components/ComunicacionComponentes';
+import CicloVida from './Components/CicloVida';
 function App() {
   return (
     <div className="App">
@@ -42,6 +45,16 @@ function App() {
          <RenderizadoCondicional/>
          <hr/>
          <RenderizadoElementos/>
+         <hr/>
+         <EventosES6/>
+         <hr/>
+         <EventosES7/>
+         <hr/>
+         <MasSobreEventos/>
+         <hr/>
+         <Padre></Padre>
+        <hr/>
+        <CicloVida/>
       </section>
       </header>
         </section>
