@@ -17,7 +17,7 @@ export default class AjaxApis extends Component{
         fetch(url)
           .then((res) => res.json())
           .then((json) => {
-            console.log(json);
+           // console.log(json);
           
             json.results.forEach((el) => {
               fetch(el.url)

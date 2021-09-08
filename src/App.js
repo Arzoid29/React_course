@@ -11,6 +11,7 @@ import {EventosES6,EventosES7,MasSobreEventos} from './Components/Eventos';
 import Padre from './Components/ComunicacionComponentes';
 import CicloVida from './Components/CicloVida';
 import AjaxApis from './Components/AjaxApis';
+import ContadorHooks from './Components/ContadorHooks';
 function App() {
   return (
     <div className="App">
@@ -58,6 +59,8 @@ function App() {
         <CicloVida/>
         <hr/>
         <AjaxApis/>
+        <hr/>
+        <ContadorHooks/>
       </section>
       </header>
         </section>
